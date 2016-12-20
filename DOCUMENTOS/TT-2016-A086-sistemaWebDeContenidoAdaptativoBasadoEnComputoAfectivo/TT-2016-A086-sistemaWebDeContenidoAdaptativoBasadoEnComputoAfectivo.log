@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.12.7)  14 DEC 2016 22:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.12.7)  20 DEC 2016 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,15 +436,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-)
+[1
+
+
+])
 \tf@toc=\write3
 \openout3 = `TT-2016-A086-sistemaWebDeContenidoAdaptativoBasadoEnComputoAfectiv
 o.toc'.
 
- [1
-
-
-]
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+ [2]
 (./TT-2016-A086-sistemaWebDeContenidoAdaptativoBasadoEnComputoAfectivo.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -454,7 +456,7 @@ LaTeX Info: Redefining \% on input line 1.
 o.lof'.
 
 
-[2
+[3
 
 ] (./TT-2016-A086-sistemaWebDeContenidoAdaptativoBasadoEnComputoAfectivo.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -464,7 +466,7 @@ LaTeX Info: Redefining \% on input line 1.
 \openout5 = `TT-2016-A086-sistemaWebDeContenidoAdaptativoBasadoEnComputoAfectiv
 o.lot'.
 
-[3
+[4
 
 ] (./introduccion/introduccion.tex
 Cap\'{\i }tulo 1.
@@ -640,25 +642,37 @@ LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
  [5])
 (./introduccion/secciones/justificacion.tex)
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
+(./descripcionGeneralDelSistema/descripcionGeneral.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
  [6]
-(./TT-2016-A086-sistemaWebDeContenidoAdaptativoBasadoEnComputoAfectivo.bbl)
+Cap\'{\i }tulo 2.
+) (./descripcionGeneralDelSistema/secciones/requerimientosFuncionales.tex
 [7
+
+]) (./descripcionGeneralDelSistema/secciones/requerimientosNoFuncionales.tex
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+
+[8])
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
+ [9]
+(./TT-2016-A086-sistemaWebDeContenidoAdaptativoBasadoEnComputoAfectivo.bbl)
+[10
 
 ] (./TT-2016-A086-sistemaWebDeContenidoAdaptativoBasadoEnComputoAfectivo.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-
 (./resumen.aux)) ) 
 Here is how much of TeX's memory you used:
- 2726 strings out of 494925
- 37297 string characters out of 6178544
- 108817 words of memory out of 5000000
- 5871 multiletter control sequences out of 15000+600000
+ 2738 strings out of 494925
+ 37841 string characters out of 6178544
+ 108820 words of memory out of 5000000
+ 5872 multiletter control sequences out of 15000+600000
  10715 words of font info for 37 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 38i,10n,26p,636b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,26p,636b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
@@ -667,10 +681,10 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on TT-2016-A086-sistemaWebDeContenidoAdaptativoBasadoEnComputoAf
-ectivo.pdf (12 pages, 202729 bytes).
+ectivo.pdf (16 pages, 211641 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
