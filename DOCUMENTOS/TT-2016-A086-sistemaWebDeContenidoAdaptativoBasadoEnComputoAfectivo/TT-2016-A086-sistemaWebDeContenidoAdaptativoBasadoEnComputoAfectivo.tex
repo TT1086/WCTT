@@ -1,0 +1,91 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%      PLANTILLA TIPO REPORTE       %%%%
+%%%%               POR                 %%%%
+%%%%    JOSÉ DAVID ORTEGA PACHECO      %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%   Recomendada para documentos     %%%%
+%%%% grandes como tesis o reportes     %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%   TIPO DE DOCUMENTO: Reporte   %%%%%%
+\documentclass[letterpaper,11pt]{report}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%   PAQUETES   %%%%%%%
+\usepackage[spanish]{babel} %Lenguaje: Español
+\usepackage{graphicx} %Manejo de imágenes
+\usepackage[utf8]{inputenc} %Manejo de imágenes
+\usepackage{cite} %Referencias
+\usepackage{float}
+\usepackage{tabularx} %ajuste tablas
+\setlength{\parindent}{3em}
+\setlength{\parskip}{1em}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%   INICIO DEL DOCUMENTO   %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+    %%%%%%% Renombrar en español %%%%%%
+    \renewcommand{\tablename}{Tabla} %Escribe Tabla en lugar de Cuadro
+    \renewcommand{\listtablename}{\'Indice de tablas} %Escribe Índice de tablas en lugar de Índice de cuadros
+
+    %%%%%%%   PORTADA y RESUMEN   %%%%%%%
+    \input{portada} %Incluye el archivo portada.tex
+    \include{resumen} %Incluye el resumen del documento (resumen.tex)
+
+    %%%%%%%   INCLUIR ENCABEZADOS EN ÍNDICES Y CAPÍTULOS   %%%%%%%
+    \pagestyle{headings}
+
+    %%%%%%%   NUMERACIÓN EN CONTENIDO E ÍNDICE DE TABLAS Y FIGURAS   %%%%%%%
+    \pagenumbering{roman} %Números romanos
+    %\setcounter{page}{1} %Comienza en I, aquí se puedo modificar
+
+    %%%%%%   INCLUIR CONTENIDO, ÍNDICE DE FIGURAS Y DE TABLAS   %%%%%%
+    \tableofcontents
+    \listoffigures
+    \listoftables
+
+    %%%%%%%   NUMERACIÓN EN CAPÍTULOS   %%%%%%%
+    \clearpage %Para iniciar con números arábigos
+    \pagenumbering{arabic} %Numeros arábigos
+    %\setcounter{page}{1} %Comienza en 1, aquí se puede modificar
+
+    %%%%%%%   INCLUYE CAPÍTULOS Y SECCIONES   %%%%%%%
+    \input{./introduccion/introduccion} %Capítulo 1
+	   \input{./introduccion/secciones/contextoDeTrabajo} %contextoDeTrabajo
+	   \input{./introduccion/secciones/problematica} %problematica
+	   \input{./introduccion/secciones/trabajoPrevio} %trabajoPrevio
+	   \input{./introduccion/secciones/solucionPropuesta} %solucionPropuesta
+	   \input{./introduccion/secciones/objetivos} %objetivos
+	   \input{./introduccion/secciones/justificacion} %justificacion
+	   
+%    \input{./computoAfectivo/computoAfectivo} %Capítulo 2
+%	   \input{./computoAfectivo/secciones/introduccion} %introduccion
+%	   \input{./computoAfectivo/secciones/definicion} %definicion
+%	   \input{./computoAfectivo/secciones/futuro} %futuro
+%	   \input{./computoAfectivo/secciones/reconocimientoEmociones} %reconocimientoEmociones
+%	   \input{./computoAfectivo/secciones/deteccionRostro} %deteccionRostro
+%	   \input{./computoAfectivo/secciones/analisisVideo} %analisisVideo
+%	   \input{./computoAfectivo/secciones/reconocimientoExpresionesFaciales} %reconocimientoExpresionesFaciales
+%	   
+%	 \input{./analisisFactibilidad/analisisFactibilidad} %Capítulo 3
+%	   \input{./analisisFactibilidad/secciones/factibilidadEconomica} %factibilidadEconomica
+%	   \input{./analisisFactibilidad/secciones/factibilidadTecnica} %factibilidadTecnica
+%	   \input{./analisisFactibilidad/secciones/analisisDeRiesgos} %analisisDeRiesgos
+%	   
+%	 \input{./descripcionGeneralDelSistema/descripcionGeneralDelSistema} %Capítulo 4
+%	   \input{./descripcionGeneralDelSistema/secciones/requerimientosFuncionales} %requerimientosFuncionales
+%	   \input{./descripcionGeneralDelSistema/secciones/requerimientosNoFuncionales} %requerimientosFuncionales
+%	   \input{./descripcionGeneralDelSistema/secciones/actores} %actores
+%	   \input{./descripcionGeneralDelSistema/secciones/modulos} %modulos
+%	   \input{./descripcionGeneralDelSistema/secciones/vistaFisica} %vistaFisica
+%	   \input{./descripcionGeneralDelSistema/secciones/vistaModulos} %vistaModulos
+	\newpage
+	\bibliographystyle{plain}
+	\bibliography{bibliografia}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%    FIN DEL DOCUMENTO    %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
